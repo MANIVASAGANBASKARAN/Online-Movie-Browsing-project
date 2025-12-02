@@ -1,0 +1,113 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #003d75, #002f5c);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Center Box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    background: rgba(0, 110, 255, 0.25);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+/* Top Circular Icon */
+.icon-circle {
+    width: 110px;
+    height: 110px;
+    border: 2px solid #1ecfff;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto 25px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-circle img {
+    width: 55px;
+    opacity: 0.9;
+}
+
+/* Input Groups */
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    color: #d7efff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.icon {
+    margin-right: 8px;
+    color: #d7efff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #a9d7ff;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Options Row */
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.options label {
+    color: #d7efff;
+    font-size: 13px;
+}
+
+.options a {
+    color: #d7efff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Bottom Text */
+.register-text {
+    margin-top: 20px;
+    color: #d2eaff;
+    font-size: 14px;
+}
